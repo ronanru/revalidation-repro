@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} grid place-items-center h-screen text-6xl text-center text-balance font-bold leading-normal`}
+        className={`${inter.className} bg-black text-white grid place-items-center h-screen text-6xl text-center text-balance font-bold leading-normal`}
       >
         {children}
       </body>
